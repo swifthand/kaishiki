@@ -1,0 +1,72 @@
+PATH
+  remote: .
+  specs:
+    kaishiki (0.3.0)
+      activemodel (~> 4.0, >= 4.0.0)
+      normalizr (= 0.1.1)
+      virtus (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.2.9)
+      activesupport (= 4.2.9)
+      builder (~> 3.1)
+    activerecord (4.2.9)
+      activemodel (= 4.2.9)
+      activesupport (= 4.2.9)
+      arel (~> 6.0)
+    activesupport (4.2.9)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    ansi (1.5.0)
+    arel (6.0.4)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    builder (3.2.3)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    i18n (0.8.6)
+    ice_nine (0.11.2)
+    minitest (5.10.3)
+    minitest-reporters (1.1.18)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    normalizr (0.1.1)
+    rake (10.5.0)
+    ruby-progressbar (1.8.3)
+    sqlite3 (1.3.13)
+    thread_safe (0.3.6)
+    turn-again-reporter (1.1.0)
+      minitest-reporters (~> 1.0, >= 1.0.8)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord (~> 4.0, >= 4.0.0)
+  bundler (~> 1.7)
+  kaishiki!
+  minitest-reporters (~> 1.1)
+  rake (~> 10.0)
+  sqlite3 (~> 1.3, >= 1.3.0)
+  turn-again-reporter (~> 1.1, >= 1.1.0)
+
+BUNDLED WITH
+   1.15.4
